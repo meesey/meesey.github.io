@@ -9,12 +9,12 @@
 
 <body> 
 
+
+<h3>This Pepe Does Not Exist </h3>
+
 <p style="color:#858585">
-This Pepe Does Not Exist <br>
-
-
-Created by Jess Moss. <br>
-Generated using stylegan3 trained on a custom dataset - upscaled using waifu2x </p>
+Created by Meese. <br>
+Generated using stylegan3 trained on a custom dataset. Upscaled using waifu2x </p>
 
 <script>
 function getRandomInt(min, max) {
@@ -22,19 +22,23 @@ function getRandomInt(min, max) {
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min; // The maximum is exclusive and the minimum is inclusive
 }
-document.write('<img src="out/pepe (' + getRandomInt(1,99) + ').png" alt="pepe" class="center">')
+document.write('<img src="out/pepe (' + getRandomInt(1,32060) + ').png" alt="pepe" class="center" width="256" height="256">')
 </script>
 
 
 <style>
+h3 { font-family: Arial; 
+	color:#858585;
+	}
+p { font-family: Arial; }
+
 body {background-color: #ffff;}
 .center {
   display: block;
   margin: auto;
-  margin-top: 400px;
+  margin-top: 500px;
   margin-left: auto;
   margin-right: auto;
-  width: 20%;
 }
 </style>
 
